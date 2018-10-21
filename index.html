@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Uber - Earn Money by Driving or Get a Ride Now</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/hover-min.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</head>
+
+<body>
+
+    <header class="header-dark">
+        <div class="container navbar1">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Uber</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto nav-left">
+                        <li class="nav-item ">
+                            <a class="nav-link" id="drive" href="#">Drive</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="ride" href="#">Ride</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="" href="#">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="more" href="#">More</a>
+                        </li>
+
+
+                    </ul>
+                    <div class=" my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto nav-right">
+                            <li class="nav-item ">
+                                <a class="nav-link" id="signIn" href="#">Log in</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="signUp" href="#">Sign up</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="container container1  navbar2">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Uber</a>
+
+
+                <div>
+
+                    <div class=" my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto nav-right" style="display: inline-block;">
+                            <li class="nav-item " style="display: inline-block;">
+                                <a class="nav-link" id="signIn" href="#">Log in</a>
+                            </li>
+                            <li class="nav-item" style="display: inline-block;">
+                                <a class="nav-link" id="signUp" href="#">Sign up</a>
+                            </li>
+                            <li class="nav-item" style="display: inline-block;">
+                                <a class="nav-link" id="rs-list" href="#"><i class="fa fa-list "></i></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="con1" class="container con1" style="display: none;">
+        <a id="close" href="#"> <i class="fa fa-close fa-3x"></i></a>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="drive-sec">
+                    <li class="drive-link"><a href="#"><span class="col-md-12" >Overview</span></a></li>
+                    <li class="drive-link"><a href="#"><span class="col-md-12" >How it works </span> <i class="fa fa-angle-right  pull-right"></i></a> </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-12" >How to sign up</span><i class="fa fa-angle-right  pull-right"></i></a></a>
+                    </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-12" >Driving in your city</span><i class="fa fa-angle-right pull-right"></i></a></a>
+                    </li>
+                </ul>
+                <ul class=" header-help">
+                    <li>
+                        <p><i class="fa fa-question-circle"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">Help Center</a></span></p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-language"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">English</a></span></p>
+                    </li>
+                    <li>
+                        <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">New York City</a></span>
+                            <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="text-fo">Seeing information for this city</span></p>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="con2" class="container con2" style="display: none;">
+        <a id="close2" href="#"> <i class="fa fa-close fa-3x"></i></a>
+        <div class="row">
+            <div class="col-md-8">
+                <ul class="drive-sec">
+                    <li class="drive-link"><a href="#"><span class="col-md-8" >Overview</span></a></li>
+                    <li class="drive-link"><a href="#"><span class="col-md-8" >How it works </span> </a> </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-8" >Price estimetor</span></a></a>
+                    </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-8" >Find a city</span></a></a>
+                    </li>
+
+                    <li class="drive-link"><a href="#"><span class="col-md-8" >Find an airport</span></a></a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="con3" class="container con3" style="display: none;">
+        <a id="close3" href="#"> <i class="fa fa-close fa-3x"></i></a>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="drive-sec">
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >About us</span></a></li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >How Uber works </span></a> </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Uber offerings</span></a></a>
+                    </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Community</span></a></a>
+                    </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Safety</span></a></a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="col-md-6">
+                <ul class="drive-sec">
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Uber Eats</span></a></li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Uber for Business</span></a> </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Uber Freight</span></a></a>
+                    </li>
+                    <li class="drive-link"><a href="#"><span class="col-md-6" >Uber Health</span></a></a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="con4" class="container con4" style="display: none;">
+        <a id="close4" href="#"> <i class="fa fa-close fa-3x"></i></a>
+        <div class="row">
+            <div class="col-md-6 sec7-data_login">
+                <i class="icon fa fa-car fa-2x"></i>
+                <h1>Driver login <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+                <p>Find everything you need to track your success on the road.</p>
+            </div>
+            <div class="col-md-6 sec7-data_login login-sec2">
+                <i class="icon fa fa-user fa-2x"></i>
+                <h1>Rider login <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+                <p>Manage your payment options, review trip history, and more.</p>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="con5" class="container con5" style="display: none;">
+        <a id="close5" href="#"> <i class="fa fa-close fa-3x"></i></a>
+        <div class="row">
+            <div class="col-md-6 sec7-data_login">
+                <i class="icon fa fa-car fa-2x"></i>
+                <h1>Signup to drive <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+            </div>
+            <div class="col-md-6 sec7-data_login login-sec2">
+                <i class="icon fa fa-user fa-2x"></i>
+                <h1>Signup to ride <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div id="con1" class="container-fluid con6" style="display: none;">
+        <div class="">
+
+            <ul class="nav nav-tabs">
+                <li class="col-4 active"><a data-toggle="tab" href="#home">Drive</a></li>
+                <li class="col-4"><a data-toggle="tab" href="#menu1">Ride</a></li>
+                <li class="col-4"><a data-toggle="tab" href="#menu2">More</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <ul class="drive-sec">
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >Overview</span></a></li>
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >How it works </span> <i class="fa fa-angle-right  pull-right"></i></a> </li>
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >How to sign up</span><i class="fa fa-angle-right  pull-right"></i></a></a>
+                        </li>
+                        <li class="drive-link"><a href="#"><span class="col-md-12" >Driving in your city</span><i class="fa fa-angle-right pull-right"></i></a></a>
+                        </li>
+                    </ul>
+                    <ul class=" header-help">
+                        <li>
+                            <p><i class="fa fa-question-circle"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">Help Center</a></span></p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-language"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">English</a></span></p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">New York City</a></span>
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="text-fo">Seeing information for this city</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <ul class="drive-sec">
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >Overview</span></a></li>
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >How it works </span> </a> </li>
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >Price estimetor</span></a></a>
+                        </li>
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >Find a city</span></a></a>
+                        </li>
+
+                        <li class="drive-link"><a href="#"><span class="col-md-8" >Find an airport</span></a></a>
+                        </li>
+                    </ul>
+                    <ul class=" header-help">
+                        <li>
+                            <p><i class="fa fa-question-circle"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">Help Center</a></span></p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-language"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">English</a></span></p>
+                        </li>
+                        <li>
+                            <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">New York City</a></span>
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span class="text-fo">Seeing information for this city</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="drive-sec">
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >About us</span></a></li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >How Uber works </span></a> </li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Uber offerings</span></a></a>
+                                </li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Community</span></a></a>
+                                </li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Safety</span></a></a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="drive-sec">
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Uber Eats</span></a></li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Uber for Business</span></a> </li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Uber Freight</span></a></a>
+                                </li>
+                                <li class="drive-link"><a href="#"><span class="col-sm-6" >Uber Health</span></a></a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <div class="sec1-heading">
+                        <h1>Move the way you want</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 sec1-dlt">
+                            <h2>Drive</h2>
+                            <p>Drive when you want. Find opportunities around you.<br> <a href="#">Learn more</a></p>
+
+                            <button class="sec1-btn1 hvr-icon-forward">Sign up to drive &nbsp;&nbsp;
+                            <svg class="hvr-icon" width=".9em" height=".9em" version="1.1" viewBox="0 0 36 36" style="display:inline-block;"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-654.000000, -6282.000000)" fill="currentColor"><g transform="translate(140.000000, 6265.000000)"><g transform="translate(514.000000, 17.000000)"><polygon points="15.2505 0 26.5455 15.066 0 15.066 0 21.5265 26.022 21.5265 15 36 22.827 36 36 18.0015 22.5 0"></polygon></g></g></g></g></svg> </button>
+                        </div>
+                        <div class="col-sm-12 col-md-6 sec1-dlt">
+                            <h2>Ride</h2>
+                            <p>Tap your phone. Get where you're headed.
+                                <br> <a href="#">Learn more</a></p>
+
+                            <button class="sec1-btn2 hvr-icon-forward">Sign up to ride &nbsp;&nbsp;
+                            <svg class="hvr-icon" width=".9em" height=".9em" version="1.1" viewBox="0 0 36 36" style="display:inline-block;"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-654.000000, -6282.000000)" fill="currentColor"><g transform="translate(140.000000, 6265.000000)"><g transform="translate(514.000000, 17.000000)"><polygon points="15.2505 0 26.5455 15.066 0 15.066 0 21.5265 26.022 21.5265 15 36 22.827 36 36 18.0015 22.5 0"></polygon></g></g></g></g></svg> </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="header-img text-center">
+                        <img src="assets/imgs/D_Homepage_Header2x1.jfif" class="img-fluid " alt="asa">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+
+    <div class="sec2">
+        <div class="container">
+            <div class="row">
+                <div class="sec-assets">
+                    <div>
+                        <Br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                    <a href="#" class="sec2-animate">
+                        <img src="assets/imgs/map.png" class="img-fluid" alt="">
+                        <p class="">
+                            <span class="sec2-heading">Where to?</span> <span class="sec2-heading2">Get a price estimate</span> <span class="ml-auto "> &nbsp;&nbsp;
+                            <svg class="sec2-icon hover" width="2em" height="2em" version="1.1" viewBox="0 0 36 36" style="display:inline-block;"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-654.000000, -6282.000000)" fill="currentColor"><g transform="translate(140.000000, 6265.000000)"><g transform="translate(514.000000, 17.000000)"><polygon points="15.2505 0 26.5455 15.066 0 15.066 0 21.5265 26.022 21.5265 15 36 22.827 36 36 18.0015 22.5 0"></polygon></g></g></g></g></svg> </span>
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="sec3">
+        <div class="container">
+            <h1>Beyond ridesharing
+            </h1>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="slider" class="owl-carousel ">
+                        <div class="post-slide">
+                            <img src="assets/imgs/uber_eats_v2.svg" />
+                            <div>
+                                <h2>Uber Eats</h2>
+                                <p>
+                                    Delicious eats, delivered easy
+                                </p>
+                                <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="post-slide">
+                            <img src="assets/imgs/uber_4Business.svg" />
+                            <div>
+                                <h2>Uber for Business</h2>
+                                <p>
+                                    How teams help move people and guests </p>
+                                <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="post-slide">
+                            <img src="assets/imgs/uber_jump.svg" />
+                            <div>
+                                <h2>JUMP Bikes
+                                </h2>
+                                <p>
+                                    Dockless bikes, featuring e-assist
+
+                                </p>
+                                <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="post-slide">
+                            <img src="assets/imgs/uber_freight.svg" />
+                            <div>
+                                <h2>Uber Freight
+                                </h2>
+                                <p>
+                                    The future of urban aerial rides
+                                </p>
+                                <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+                        <div class="post-slide">
+                            <img src="assets/imgs/uber_elevate.svg" />
+                            <div>
+                                <h2>Uber Eats</h2>
+                                <p>
+                                    Delicious eats, delivered easy
+                                </p>
+                                <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="sec4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 sec4-data">
+                    <h1>Your safety is always a top priority</h1>
+                    <p>We’re committed to helping riders and drivers get where they want to go with confidence.</p>
+                    <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                </div>
+                <div class="col-lg-7">
+                    <img src="assets/imgs/D_Homepage_Safety2x.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="sec5">
+        <div class="container">
+            <h1>Latest news</h1>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <img src="assets/imgs/a.webp" class="img-fluid">
+                    <h2>Built for drivers, with drivers</h2>
+                    <p>The new Driver app helps you earn smarter and supports you–like a partner–at every turn.</p>
+                    <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/imgs/b.webp" class="img-fluid">
+                    <h2>The Uber Visa Card</h2>
+                    <p>Earn on what you do. Get to what you love.</p><br>
+                    <a href="#" class="hvr-icon-forward">Apply now &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="clearfix">
+    </div>
+
+    <div class="sec4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 sec4-data">
+                    <h1>Doors are always opening</h1>
+                    <p>Opportunity is everywhere. Get out there and find it with Uber.</p>
+                    <a href="#" class="hvr-icon-forward">See the video &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+                </div>
+                <div class="col-md-7">
+                    <img src="assets/imgs/c.webp" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="sec6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 sec6-data">
+                    <img src="assets/imgs/icon_bullets_about.svg" style="width: 10%">
+                    <h2 class="sec6-heading">About us</h2>
+                    <p>Our story, leadership, and where we’re going</p>
+                    <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a><br>
+                </div>
+                <div class="col-md-4 sec6-data">
+                    <img src="assets/imgs/document.svg" style="width: 10%">
+                    <h2 class="sec6-heading">Newsroom</h2>
+                    <p>Our story, leadership, and where we’re going</p>
+                    <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a><br>
+                </div>
+                <div class="col-md-4 sec6-data">
+                    <img src="assets/imgs/icon_bullets_community.svg" style="width: 10%">
+                    <h2 class="sec6-heading">Community</h2>
+                    <p>Our story, leadership, and where we’re going</p>
+                    <a href="#" class="hvr-icon-forward">Learn more &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sec7">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 sec7-data">
+
+                    <h1>Sign up to<br> drive <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+                </div>
+                <div class="col-md-6 pull-right sec7-data">
+
+                    <h1>Sign up to<br> drive <i class="sec7-icon fa fa-arrow-right pull-right">
+    </i></h1>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div class="container ">
+        <p class="con-para">Certain requirements and features vary by country, region, and city.</p>
+
+    </div>
+
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>We're here to help</h1>
+
+                </div>
+                <div class="col-md-6">
+                    <p>Support is just a few taps away. You can also get your questions answered by using our help section.
+                    </p>
+                    <a href="#" class="hvr-icon-forward">Get help &nbsp;<i class="fa fa-angle-right hvr-icon"></i></a>
+
+
+                </div>
+            </div>
+            <div class="sparete">
+            </div>
+
+            <div class="row footer-sec">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h2>Uber</h2>
+
+                        </div>
+                        <div class="col-md-9">
+                            <ul class="footer-list1">
+                                <li>
+                                    <p><i class="fa fa-language"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">English</a></span></p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-map-marker"></i> &nbsp;&nbsp;&nbsp;<span><a href="#">New York</a></span>
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span class="text-fo">Seeing information for this city</span></p>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="download-btn">
+                            <img class="btn1" src="assets/imgs/btn1.svg" />
+                            <img class="btn2" src="assets/imgs/btn2.svg" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-3">
+                    <ul class="footer-list2">
+                        <br>
+                        <li class="list-heading"><a>About Us</a></li>
+                        <li>
+                            <a>Newsroom</a>
+                        </li>
+                        <li>
+                            <a>Blog</a>
+                        </li>
+                        <li><a>Uber API</a></li>
+                        <li><a>Gift cards</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>Uber vs. driving jobs</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <br>
+                    <ul class="footer-list2">
+                        <li class="list-heading"><a>Offerings</a></li>
+                        <li>
+                            <a>Uber Eats for food delivery</a>
+                        </li>
+                        <li>
+                            <a>Uber for business</a>
+                        </li>
+                        <li><a>Uber Freight</a></li>
+                        <li><a>Uber Health</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            <div class="sparete2">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <p>© 2018 Uber Technologies Inc.</p>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-4">
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy</a>
+                        </li>
+                        <li><a href="#">Accessibility</a>
+                        </li>
+                        <li><a href="#">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="social-icons">
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-linkedin"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+    </footer>
+
+</body>
+
+</html>

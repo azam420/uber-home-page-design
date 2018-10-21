@@ -1,0 +1,1069 @@
+            @font-face {
+                font-family: 'UberMove';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff') format('woff');
+                font-weight: 200;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMove';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMove';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff') format('woff');
+                font-weight: 500;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMove';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff') format('woff');
+                font-weight: 600;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMoveText';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Light.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Light.woff') format('woff');
+                font-weight: 200;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMoveText';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Regular.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMoveText';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Medium.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Medium.woff') format('woff');
+                font-weight: 500;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'UberMoveText';
+                src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Bold.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Bold.woff') format('woff');
+                font-weight: 600;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            .navbar2 {
+                display: none;
+            }
+            
+            body {
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                overflow-x: hidden;
+            }
+            
+            .header-dark {
+                padding: 5px 10px;
+                background: #000;
+            }
+            
+            .header-dark .nav-item a {
+                color: #fff !important;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            
+            .header-dark .nav-item a:hover {
+                color: #276EF1 !important;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            
+            .navbar-brand,
+            .navbar-brand:hover {
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #fff !important;
+                font-size: 26px !important;
+                font-weight: 500;
+            }
+            
+            .navbar-nav .nav-item {
+                margin-left: 42px;
+            }
+            
+            .navbar-toggler-icon {
+                width: 1.1em !important;
+            }
+            
+            .sec1-heading h1 {
+                color: #000;
+                line-height: 78px;
+                font-size: 73px;
+                font-weight: 900;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                margin: 60px 50px 50px 0px;
+            }
+            
+            .sec h2 {
+                color: #000;
+                padding: 20px 0;
+                font-weight: 900;
+                font-size: 36px;
+            }
+            
+            .sec p {
+                font-size: 20px;
+                font-weight: 400;
+                font-family: UberMoveText;
+                line-height: 20px;
+            }
+            
+            .sec a {
+                border-bottom: 2px solid currentColor;
+                color: #000;
+                line-height: 30px;
+            }
+            
+            .sec a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+                color: #276EF1 !important;
+            }
+            
+            .sec1-btn1 {
+                padding: 11px 22px;
+                background-color: #276EF1;
+                text-overflow: ellipsis;
+                font-size: 18px;
+                border: none;
+                color: #fff;
+                font-weight: 600;
+                margin-top: 25px;
+                cursor: pointer;
+                transition: all .3s ease-in;
+            }
+            
+            .sec1-btn1:hover {
+                background: #000;
+                color: #fff;
+            }
+            
+            .sec1-btn2 {
+                padding: 11px 22px;
+                background-color: transparent;
+                text-overflow: ellipsis;
+                font-size: 18px;
+                border: 1px solid #276EF1;
+                color: #276EF1;
+                font-weight: 600;
+                margin-top: 25px;
+                cursor: pointer;
+                transition: all .3s ease-in;
+            }
+            
+            .sec1-btn2:hover {
+                color: #000 !important;
+                border: 1px solid #000;
+            }
+            
+            .sec-assets {
+                position: relative;
+                width: 100vw;
+            }
+            
+            .sec2 p {
+                top: -260px;
+                position: relative;
+                background: #fff;
+                display: inline-block;
+                color: #000;
+                padding: 50px 0 !important;
+            }
+            
+            .sec2 p:hover {
+                top: -260px;
+                position: relative;
+                background: #fff;
+                display: inline-block;
+                color: #276EF1;
+                padding: 50px 0 !important;
+            }
+            
+            .sec2-heading {
+                font-size: 56px;
+                font-weight: 900;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec2-heading2 {
+                display: inline-block;
+                margin-top: -30px;
+                font-size: 20px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                margin-left: 50px;
+                color: #000;
+                line-height: 1.5;
+            }
+            
+            .sec2-icon {
+                margin-left: 300px;
+                margin-right: 110px;
+            }
+            
+            .sec3 {
+                margin-top: -110px;
+            }
+            
+            .sec3 h1 {
+                margin-bottom: 50px;
+                font-weight: 600;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #000;
+                font-size: 48px;
+            }
+            
+            .post-slide {
+                padding: 5px;
+            }
+            
+            .owl-nav {
+                float: right !important;
+                font-size: 40px !important;
+                margin-right: 20px !important;
+            }
+            
+            .owl-prev {
+                margin-right: 20px !important;
+            }
+            
+            .navbar-toggler {
+                background: #fff !important;
+            }
+            
+            .sec3 h2 {
+                padding: 30px 0;
+                line-height: 32px;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec3 p {
+                line-height: 30px;
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec3 a {
+                color: #276EF1;
+                line-height: 30px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec3 a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec4 {
+                margin: 50px 20px;
+            }
+            
+            .sec4 img {
+                padding: 5px;
+            }
+            
+            .sec4 h1 {
+                padding: 20px 70px 30px 0 !important;
+                line-height: 56px;
+                font-weight: 600;
+                font-size: 48px;
+                transition: all 200ms ease;
+                color: #000;
+            }
+            
+            .sec4 p {
+                padding-right: 120px;
+                line-height: 30px;
+                font-weight: 400;
+                letter-spacing: 0;
+                font-size: 20px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec4 a {
+                color: #276EF1;
+                line-height: 30px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec4 a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec5 img {
+                padding: 50px 10px;
+            }
+            
+            .sec5 h1 {
+                padding: 30px 20px 10px 0 !important;
+                line-height: 56px;
+                font-weight: 600;
+                font-size: 48px;
+                transition: all 200ms ease;
+                color: #000;
+            }
+            
+            .sec5 h2 {
+                color: #000;
+                margin: -15px 10px !important;
+                font-size: 25px;
+                font-weight: 600;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec5 p {
+                padding: 20px 20px 10px 10px;
+                margin-top: 10px;
+                color: #000;
+                line-height: 30px;
+                font-weight: 400;
+                font-size: 18px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec5 a {
+                margin-left: 10px;
+                color: #276EF1;
+                line-height: 30px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec5 a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec-data {
+                position: relative;
+                top: 150px;
+                left: 100px;
+            }
+            
+            .sec-data h1 {
+                line-height: 56px;
+                font-size: 48px;
+                font-weight: 600;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #000;
+            }
+            
+            .btn-sec5 {
+                color: #276EF1;
+                line-height: 30px;
+                font-weight: 600 !important;
+                font-size: 20px !important;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .btn-sec5:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .drive-sec {
+                list-style: none;
+                height: 100vh;
+                background-color: #fff;
+                position: relative;
+                top: 150px;
+            }
+            
+            .drive-sec a {
+                font-weight: 600;
+                color: #000;
+                padding: 10px 0;
+                font-size: 36px;
+                margin-top: 20px !important;
+            }
+            
+            .drive-sec a:hover {
+                color: #276EF1;
+                text-decoration: none;
+            }
+            
+            .drive-sec .fa {
+                margin-top: 12px !important;
+            }
+            
+            #close {
+                float: right;
+                margin-top: 30px;
+                color: #000;
+            }
+            
+            #close:hover {
+                color: #276EF1 !important;
+            }
+            
+            #close2 {
+                float: right;
+                margin-top: 30px;
+                color: #000;
+            }
+            
+            #close2:hover {
+                color: #276EF1 !important;
+            }
+            
+            #close3 {
+                float: right;
+                margin-top: 30px;
+                color: #000;
+            }
+            
+            #close3:hover {
+                color: #276EF1 !important;
+            }
+            
+            #close4 {
+                float: right;
+                margin-top: 30px;
+                color: #000;
+            }
+            
+            #close4:hover {
+                color: #276EF1 !important;
+            }
+            
+            #close5 {
+                float: right;
+                margin-top: 30px;
+                color: #000;
+            }
+            
+            #close5:hover {
+                color: #276EF1 !important;
+            }
+            
+            .sec6 {
+                padding: 30px;
+                position: relative;
+                margin-top: 80px;
+            }
+            
+            .sec6 h2 {
+                color: #000;
+                margin: 30px 0;
+                font-size: 36px;
+                font-weight: 600;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec6 p {
+                line-height: 30px;
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec6 a {
+                margin-bottom: 20px;
+                color: #276EF1;
+                line-height: 30px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .sec6 a:hover {
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec7-data {
+                margin-top: 50px;
+                margin-bottom: 40px;
+            }
+            
+            .sec7-data h1 {
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #000;
+                line-height: 68px;
+                font-size: 56px;
+                font-weight: 600;
+                padding-bottom: 50px;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec7-data h1:hover {
+                cursor: pointer;
+                color: #276EF1;
+            }
+            
+            .sec7-data i {
+                margin-top: -55px !important;
+            }
+            
+            .sec7-data_login {
+                margin-top: 120px;
+                margin-bottom: 260px;
+            }
+            
+            .sec7-data_login h1 {
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #000;
+                line-height: 68px;
+                font-size: 46px;
+                font-weight: 600;
+                padding-bottom: 50px;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec7-data_login h1:hover {
+                cursor: pointer;
+                color: #276EF1;
+            }
+            
+            .sec7-data_login p {
+                font-size: 20px;
+                padding: 30px 90px 20px 0px;
+            }
+            
+            .sec7-data_login i {
+                margin-top: 15px !important;
+            }
+            
+            .sec7-data_login .icon {
+                margin-bottom: 50px;
+            }
+            
+            .sec7-data_signup {
+                margin-top: 120px;
+                margin-bottom: 260px;
+            }
+            
+            .sec7-data_signup h1 {
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #000;
+                line-height: 68px;
+                font-size: 46px;
+                font-weight: 600;
+                padding-bottom: 50px;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sec7-data_signup h1:hover {
+                cursor: pointer;
+                color: #276EF1;
+            }
+            
+            .sec7-data_signup i {
+                margin-top: 15px !important;
+            }
+            
+            .con-para {
+                padding: 30px;
+            }
+            
+            footer {
+                background-color: #000;
+                color: #fff;
+                padding: 100px 30px 0 30px;
+            }
+            
+            footer h1 {
+                line-height: 42px;
+                font-size: 36px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                font-weight: 600;
+            }
+            
+            footer p {
+                font-size: 20px;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            footer a {
+                font-size: 20px;
+                font-size: 600;
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #fff;
+            }
+            
+            footer a:hover {
+                color: #276EF1;
+                text-decoration: none;
+                border-bottom: 2px solid currentColor;
+            }
+            
+            .sparete {
+                height: 1px;
+                background-color: #4D4D4D;
+                margin: 100px 5px;
+            }
+            
+            .footer-sec h2 {
+                font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                font-size: 42px;
+            }
+            
+            .footer-sec h2:hover {
+                cursor: pointer;
+            }
+            
+            .footer-list1 {
+                list-style: none;
+            }
+            
+            .footer-list1 a {
+                line-height: 5px;
+                text-decoration: none;
+                padding-bottom: 2px;
+                border-bottom: 1px solid #fff;
+            }
+            
+            .footer-list2 {
+                list-style: none;
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .footer-list2 .list-heading {
+                margin-bottom: 15px;
+                font-weight: 600;
+                font-size: 20px;
+                font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            .footer-list2 li {
+                margin-bottom: 12px;
+            }
+            
+            .download-btn img {
+                margin-top: 60px;
+                margin-right: 30px;
+            }
+            
+            .download-btn img:hover {
+                cursor: pointer;
+            }
+            
+            .btn1 {
+                width: 140px;
+            }
+            
+            .btn2 {
+                width: 150px;
+            }
+            
+            .footer-links {
+                list-style: none;
+            }
+            
+            .footer-links li {
+                font-size: 18px;
+                display: inline-block;
+                margin-right: 0px;
+                margin-left: 30px;
+            }
+            
+            .footer-links li a:hover {
+                color: #fff;
+            }
+            
+            .sparete2 {
+                height: 1px;
+                background-color: #4D4D4D;
+                margin: 40px 5px;
+            }
+            
+            .social-icons {
+                list-style: none;
+            }
+            
+            .social-icons li {
+                display: inline-block;
+                margin-left: 35px;
+            }
+            
+            .social-icons li:hover {
+                cursor: pointer;
+                display: inline-block;
+                margin-left: 35px;
+            }
+            
+            button {
+                margin-bottom: 20px;
+            }
+            
+            .header-help {
+                margin-top: 50px;
+                list-style: none;
+            }
+            
+            .header-help li a {
+                text-decoration: none;
+                border-bottom: 1px solid #0b0c0e;
+                color: #000;
+                font-size: 18px;
+                font-weight: 600;
+                transition: all .5s;
+            }
+            
+            .header-help li a:hover {
+                text-decoration: none;
+                border-bottom: 1px solid #276EF1;
+                color: #276EF1;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            @media(max-width:1200px) {
+                .sec1-heading h1 {
+                    color: #000;
+                    line-height: 78px;
+                    font-size: 65px;
+                    font-weight: 900;
+                    font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                    margin: 30px 50px 30px 20px;
+                }
+                .sec h2 {
+                    color: #000;
+                    padding: 5px 0;
+                    font-weight: 900;
+                    font-size: 26px;
+                }
+                .sec p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-family: UberMoveText;
+                    line-height: 20px;
+                }
+                .sec1-btn1 {
+                    padding: 9px 18px;
+                    background-color: #276EF1;
+                    text-overflow: ellipsis;
+                    font-size: 17px;
+                    border: none;
+                    color: #fff;
+                    font-weight: 600;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+                }
+                .sec1-btn2 {
+                    padding: 9px 18px;
+                    background-color: transparent;
+                    text-overflow: ellipsis;
+                    font-size: 17px;
+                    border: 1px solid #276EF1;
+                    color: #276EF1;
+                    font-weight: 600;
+                    margin-top: 40px;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+                }
+                .sec4 {
+                    margin: 50px 10px;
+                }
+                .sec4 h1 {
+                    padding: 30px 50px 30px 0 !important;
+                    line-height: 42px;
+                    font-weight: 600;
+                    font-size: 42px;
+                    transition: all 200ms ease;
+                    color: #000;
+                }
+            }
+            
+            @media(max-width:1100px) {
+                .sec1-heading h1 {
+                    color: #000;
+                    line-height: 78px;
+                    font-size: 65px;
+                    font-weight: 900;
+                    font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                    margin: 30px 50px 30px 0px;
+                }
+                .sec h2 {
+                    color: #000;
+                    padding: 5px 0;
+                    font-weight: 900;
+                    font-size: 26px;
+                }
+                .sec p {
+                    font-size: 17px;
+                    font-weight: 400;
+                    font-family: UberMoveText;
+                    line-height: 20px;
+                }
+                .sec1-btn1 {
+                    padding: 9px 18px;
+                    background-color: #276EF1;
+                    text-overflow: ellipsis;
+                    font-size: 16px;
+                    border: none;
+                    color: #fff;
+                    font-weight: 400;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+                }
+                .sec1-btn2 {
+                    padding: 9px 18px;
+                    background-color: transparent;
+                    text-overflow: ellipsis;
+                    font-size: 16px;
+                    border: 1px solid #276EF1;
+                    color: #276EF1;
+                    font-weight: 400;
+                    margin-top: 40px;
+                    cursor: pointer;
+                    transition: all .3s ease-in;
+                }
+            }
+            
+            @media(max-width:991px) {
+                .navbar1 {
+                    display: none;
+                }
+                .navbar2 {
+                    display: inline-block;
+                }
+                .container1 {
+                    max-width: 920px;
+                }
+                .nav-tabs {
+                    padding: 20px 0 !important;
+                    margin-top: 20px;
+                    border-bottom: none;
+                }
+                .nav-tabs li a {
+                    margin-left: 0;
+                    color: #000;
+                    text-decoration: none
+                }
+                .nav-tabs li a:hover {
+                    color: #276EF1;
+                }
+                .nav-tabs li {
+                    font-weight: 500;
+                    padding-bottom: 30px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    border-bottom: 1px solid #0b0c0e;
+                    transition: all .3s;
+                }
+                .nav-tabs li:hover {
+                    padding-bottom: 30px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    border-bottom: 4px solid #276EF1;
+                }
+                .drive-sec {
+                    top: 10px;
+                    height: 100%;
+                }
+                .drive-sec a {
+                    font-weight: 600;
+                    color: #000;
+                    padding: 10px 0;
+                    font-size: 26px;
+                    margin-top: 20px !important;
+                }
+                .header-help {
+                    margin-top: 50px;
+                    list-style: none;
+                }
+                .header-help li a {
+                    text-decoration: none;
+                    border-bottom: 1px solid #0b0c0e;
+                    color: #000;
+                    font-size: 18px;
+                    font-weight: 600;
+                    transition: all .5s;
+                }
+                .header-help li a:hover {
+                    text-decoration: none;
+                    border-bottom: 1px solid #276EF1;
+                    color: #276EF1;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+            
+            @media(max-width:980px) {
+                .sec-data h1 {
+                    padding-top: 500px;
+                }
+                @media(max-width:600px) {
+                    .sec1-heading h1 {
+                        color: #000;
+                        line-height: 58px;
+                        font-size: 45px;
+                        font-weight: 900;
+                        font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                        margin: 40px 50px 50px -5px;
+                    }
+                    .drive-sec a {
+                        font-weight: 600;
+                        color: #000;
+                        padding: 10px 0;
+                        font-size: 26px;
+                        margin-top: 20px !important;
+                        margin-left: -55px
+                    }
+                    .sec2 p {
+                        top: -150px;
+                        position: relative;
+                        background: #fff;
+                        display: inline-block;
+                        color: #000;
+                        padding: 20px 0 !important;
+                    }
+                    .sec2 p:hover {
+                        top: -150px;
+                        position: relative;
+                        background: #fff;
+                        display: inline-block;
+                        color: #276EF1;
+                        padding: 20px 0 !important;
+                    }
+                    .sec-assets img {
+                        height: 200px;
+                    }
+                    .sec-assets {
+                        position: relative;
+                        width: 100vw;
+                        height: 300px;
+                        margin-top: 80px;
+                    }
+                    .sec2-heading {
+                        margin-left: 20px;
+                        font-size: 36px;
+                        font-weight: 900;
+                        font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                    }
+                    .sec2-heading2 {
+                        display: none;
+                        margin-top: -30px;
+                        font-size: 20px;
+                        font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                        margin-left: 50px;
+                        color: #000;
+                        line-height: 1.5;
+                    }
+                    .sec2-icon {
+                        margin-top: -15px;
+                        margin-left: 50px;
+                        margin-right: 20px;
+                    }
+                    .sec3 {
+                        margin-top: 0px;
+                    }
+                    .footer-list1 .text-fo {
+                        display: none;
+                    }
+                    .footer-list1 li {
+                        margin-left: -20px;
+                        line-height: 5px;
+                        text-decoration: none;
+                        padding-bottom: 2px;
+                    }
+                    .btn1 {
+                        margin-bottom: -40px !important;
+                    }
+                    .btn2 {
+                        width: 140px;
+                    }
+                    .sec7-data_login {
+                        margin-top: 50px;
+                        margin-bottom: 10px;
+                    }
+                    .sec7-data_login h1 {
+                        font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                        color: #000;
+                        line-height: 68px;
+                        font-size: 36px !important;
+                        font-weight: 600;
+                        padding-bottom: 30px;
+                        border-bottom: 2px solid currentColor;
+                    }
+                    .sec7-data_login h1:hover {
+                        cursor: pointer;
+                        color: #276EF1;
+                    }
+                    .sec7-data_login i {
+                        margin-top: 15px !important;
+                    }
+                    .sec7-data_signup {
+                        margin-top: 50px !important;
+                        margin-bottom: 10px;
+                    }
+                    .sec7-data_signup h1 {
+                        font-family: 'UberMove', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                        color: #000;
+                        line-height: 68px;
+                        font-size: 36px !important;
+                        font-weight: 600;
+                        padding-bottom: 30px;
+                        border-bottom: 2px solid currentColor;
+                    }
+                    .sec7-data_signup h1:hover {
+                        cursor: pointer;
+                        color: #276EF1;
+                    }
+                    .sec7-data_signup i {
+                        margin-top: -55px !important;
+                    }
+                    .sec7-data_login .icon {
+                        margin-bottom: 30px;
+                    }
+                    .sec7-data_login p {
+                        font-size: 20px;
+                        padding: 30px 40px 20px 0px;
+                    }
+                    .login-sec2 {
+                        margin-top: -30px !important;
+                    }
+                    .navbar-brand,
+                    .navbar-brand:hover {
+                        font-family: 'UberMoveText', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+                        color: #fff !important;
+                        font-size: 22px !important;
+                        font-weight: 500;
+                    }
+                    .header-dark .nav-item a {
+                        color: #fff !important;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    .header-dark .nav-item a:hover {
+                        color: #276EF1 !important;
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                    .navbar-nav .nav-item {
+                        margin-left: 22px;
+                    }
+                }
+            }
